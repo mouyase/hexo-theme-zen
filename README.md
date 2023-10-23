@@ -1,5 +1,5 @@
 # hexo-theme-zen
-## Hexo极简主题
+## 禅 - Hexo极简主题
 
 ===
 
