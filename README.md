@@ -12,15 +12,12 @@
 正确的高亮配置
 ```yaml
 highlight:
-  enable: false
-  line_number: true
+  enable: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: false
-  hljs: false
+  hljs: true
 prismjs:
-  enable: true
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+  enable: false
 ```
