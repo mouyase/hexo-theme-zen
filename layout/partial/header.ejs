@@ -1,0 +1,17 @@
+<header>
+    <a class="title" href="/">
+        <h1>
+            <%= config.title %>
+        </h1>
+        <% if (config.subtitle) { %>
+        <h6>
+            <%= config.subtitle %>
+        </h6>
+        <% } %>
+    </a>
+    <nav>
+        <p>
+            <% for (let name in theme.menu) { %><a href="<%- url_for(theme.menu[name]) %>"><%= name %></a><% } %>
+        </p>
+    </nav>
+</header>

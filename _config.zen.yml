@@ -1,0 +1,17 @@
+favicon: favicon.jpg
+
+menu:
+  首页: /
+  关于: about.html
+
+copyright:
+  name: Yojigen.Tech
+
+twikoo:
+  enable: true
+  # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  envId : 您的环境id
+  # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  region: ap-guangzhou
+  # 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
+  lang: zh-CN

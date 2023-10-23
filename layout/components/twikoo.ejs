@@ -1,0 +1,11 @@
+<hr/>
+<div id="twikoo"></div>
+<%- js('js/twikoo.all.min') %>
+<script>
+    twikoo.init({
+        envId: '<%= theme.twikoo.envId %>',
+        el: '#twikoo',
+        region: '<%= theme.twikoo.region || "" %>',
+        lang: '<%= theme.twikoo.lang || "zh-cn" %>',
+    })
+</script>

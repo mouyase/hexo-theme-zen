@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<%- partial('partial/head') %>
+    <body>
+        <% if (page.path !== '404.html') { %>
+            <%- partial('partial/header') %>
+        <% } %>
+        <%- body %>
+        <% if (page.path !== '404.html') { %>
+            <%- partial('partial/footer') %>
+        <% } %>
+    </body>
+</html>

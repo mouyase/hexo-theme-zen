@@ -1,0 +1,14 @@
+<footer style="padding:25px 0;">
+    <% if (theme.copyright) { %>
+    <span>
+        &copy; <%= date(new Date(), 'YYYY' ) %>
+            <%= theme.copyright.name || config.author %>
+    </span>
+    <% } %>
+    <span>
+        Powered by <a href="https://hexo.io/">Hexo</a>
+    </span>
+    <span>
+        Theme <a href="https://hexo.io/">Zen</a>
+    </span>
+</footer>

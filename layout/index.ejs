@@ -1,0 +1,17 @@
+<main>
+    <ul class="blog-posts">
+        <% var posts=site.posts.sort('date', 'desc' ); %>
+            <% posts.forEach(post=> { %>
+                <li>
+                    <span>
+                        <i>
+                            <time>
+                                <%= date(post.date, 'YYYY/MM/DD' ) %>
+                            </time>
+                        </i>
+                    </span>
+                    <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+                </li>
+                <% }) %>
+    </ul>
+</main>
