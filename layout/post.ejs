@@ -8,7 +8,7 @@
         <i><time><%= date(page.date, 'YYYY/MM/DD' ) %></time></i>
     </p>
     <%- page.content %>
-    <% if (theme.twikoo.enable) { %>
+    <% if (theme.twikoo.enable || false) { %>
         <%- partial('components/twikoo') %>
     <% } %>
 </main>
