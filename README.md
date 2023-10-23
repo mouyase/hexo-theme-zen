@@ -8,3 +8,19 @@
 配置文件参考`_config.zen.yml`
 
 支持`Twikoo`评论功能
+
+正确的高亮配置
+```yaml
+highlight:
+  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: false
+  hljs: false
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+```
