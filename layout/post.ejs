@@ -5,10 +5,13 @@
     </h1>
     <% } %>
     <p>
-        <i><time><%= date(page.date, 'YYYY/MM/DD' ) %></time></i>
+        <i><time><%= date(page.date, 'YYYY/MM/DD HH:mm:ss' ) %></time></i>
     </p>
     <%- page.content %>
     <% if (theme.twikoo.enable || false) { %>
         <%- partial('components/twikoo') %>
+    <% } %>
+    <% if (theme.beaudar.enable || false) { %>
+        <%- partial('components/beaudar') %>
     <% } %>
 </main>

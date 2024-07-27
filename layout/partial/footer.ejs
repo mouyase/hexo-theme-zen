@@ -1,4 +1,15 @@
 <footer style="padding:25px 0;">
+    <% if (theme.friends && theme.friends.length > 0) { %>
+        <% for (index in theme.friends) { %>
+            <% if (index !== '0') { %>
+                <span> | </span>
+            <% } %>
+            <span>
+                <a href="<%= theme.friends[index].url %>"><%= theme.friends[index].name %></a>
+            </span>
+        <% } %>
+    <% } %>
+    <br/>
     <% if (theme.copyright) { %>
     <span>
         &copy; <%= date(new Date(), 'YYYY' ) %>

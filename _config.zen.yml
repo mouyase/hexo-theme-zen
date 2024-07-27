@@ -7,6 +7,7 @@ menu:
 copyright:
   name: Yojigen.Tech
 
+# twikoo 评论系统配置
 twikoo:
   enable: true
   # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
@@ -15,3 +16,16 @@ twikoo:
   region: ap-guangzhou
   # 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
   lang: zh-CN
+
+# beaudar 评论系统配置
+beaudar:
+  enable: true
+  # 填写用于 beaudar 评论系统的 github repo 地址
+  repo : mouyase/Yojigen.Tech
+  # 填写用于 beaudar 评论系统的分支
+  branch: main
+
+# 底部友情链接配置
+friends:
+  - name: 示例网站
+    url: https://www.examlpe.com/
