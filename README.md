@@ -7,7 +7,7 @@
 
 配置文件参考`_config.zen.yml`
 
-支持`Twikoo`评论功能
+支持`Twikoo`和`beaudar`评论功能
 
 正确的高亮配置
 ```yaml
